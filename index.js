@@ -6,7 +6,7 @@ const app = express();
 app.use(json());
 
 app.get('/status', async (req, res) => {
-  res.send('narutssssin');
+  res.send('mudou aqui');
 
 });
 
