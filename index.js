@@ -37,3 +37,7 @@ app.post('/users', async (req, res) => {
 const PORT = process.env.PORT || 4002;
 
 app.listen(PORT, () => console.log(`Magic happens on ${PORT}`))
+
+export {
+  app,
+}
