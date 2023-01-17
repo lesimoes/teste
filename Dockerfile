@@ -10,7 +10,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # passo 4 - executar o npm install
-RUN npm install
+RUN npm ci
 
 
 # passo 5 - vamos copiar todos os arquivos para o container
