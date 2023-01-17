@@ -24,5 +24,6 @@ ENV PORT=4002
 # passo 7 - export a port da aplicação
 EXPOSE 4002
 RUN npx prisma generate
+RUN npm run test
 # passo 8 - executar a aplicação
 CMD [ "npm", "run", "dev:migrate" ]
